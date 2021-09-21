@@ -5,6 +5,7 @@ import traceback
 import asyncio
 import shutil
 import psutil
+import heroku3
 
 from pyrogram import Client, filters
 from pyrogram.types import Message, Dialog, Chat
