@@ -13,7 +13,7 @@ from urllib.parse import urlparse
 import aiofiles
 import aiohttp
 import requests
-import youtube_dl
+import yt_dlp
 from yt_dlp import YoutubeDL
 from pyrogram import Client, filters
 from pyrogram.errors import FloodWait, MessageNotModified
